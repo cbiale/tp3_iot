@@ -1,0 +1,20 @@
+{
+	"name": "lista-bbd",
+	"version": "1.0.0",
+	"description": "tp3",
+	"main": "index.js",
+	"scripts": {
+		"test": "cucumber-js --publish-quiet",
+		"coverage": "nyc --reporter=html cucumber-js --publish-quiet"
+	},
+	"nyc": {
+		"exclude": "features/**"
+	},
+	"author": "Claudio Omar Biale",
+	"license": "ISC",
+	"dependencies": {
+		"@cucumber/cucumber": "^7.2.1",
+		"chai": "^4.3.4",
+		"nyc": "^15.1.0"
+	}
+}
